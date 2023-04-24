@@ -1,0 +1,217 @@
+/* Default styles */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+/* Media queries for different screen sizes */
+
+
+@media only screen and (max-width: 480px) {
+    .container {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .call {
+        margin-bottom: 42rem;
+    }
+
+    .advantages {
+        position: absolute;
+        bottom: -40rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .call {
+        margin-bottom: 42rem;
+    }
+
+    .advantages {
+        position: absolute;
+        bottom: -40rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .call {
+        margin-bottom: 42rem;
+    }
+
+    .advantages {
+        position: absolute;
+        bottom: -40rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+/* Style for the header and navigation bar */
+
+header {
+    background-image: url('/Users/Owner/Desktop/Web design project/images/image-hero-coffeepress.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.call {
+    position: relative;
+    padding: 4rem 0 10rem 0;
+    margin-bottom: 14rem;
+}
+
+.advantages {
+    position: absolute;
+    bottom: -7rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+nav {
+    background-color: #f5f5dc;
+    /* primary color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #a17a46;
+}
+
+/*styling for the logo in the navigation bar */
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #a17a46;
+    background-color: #f5f5dc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*styling for the links in the navigation bar */
+.nav-link {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*hover effect of the navigation links */
+.nav-link:hover {
+    color: #a17a46;
+    /* secondary color */
+}
+
+/*style for the form input fields */
+.form-control {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+}
+
+/*primary button style*/
+.btn-primary {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0;
+    background-color: #d2b48c;
+    border-color: #d2b48c;
+}
+
+/* hover effect of the primary button */
+.btn-primary:hover {
+    background-color: #cd5c5c;
+    border-color: #cd5c5c;
+}
+
+/*styling for the item font */
+.item-font {
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+/* menu font class styling */
+.menu-font {
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+/* Removes padding and bullet points from unordered lists */
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.mb-4 {
+    margin-bottom: 2rem;
+}
+
+
+.my-5 {
+    color: white;
+}
+
+
+.order-form {
+    color: white;
+}
+
+/*styling for the contact button */
+.btn-contact {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+
+/* form check label styling */
+.form-check-label {
+    color: white;
+}
+
+.form-control{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Sets the styling for the contact font class*/
+.contact-font {
+    color: tan;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+
+/* Sets the background image for an element */
+.background-image {
+    background-image: url('/Users/Owner/Desktop/Web design project/images/pexels-viktoria-alipatova-2668498.jpg');
+    background-size: 90% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Sets the background image for the contact section */
+.contact-background {
+    background-image: url('/Users/Owner/Desktop/Web design project/images/pexels-ömer-aydin-10999349.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.about-header {
+    background-image: url('/Users/Owner/Desktop/Web design project/images/image-hero-whitecup.jpg');
+    background-size: cover;
+    background-position: center;
+}

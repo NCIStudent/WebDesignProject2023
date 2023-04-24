@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Page - Coffee Roasters & Café</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+   
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="background-image">
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="/Users/Owner/Desktop/Web design project/images/logo.svg"
+                        alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-uppercase" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--create menu of drinks/coffee selection-->
+        <div class="container text-light p-5 my-3 rounded">
+            <h1 class="my-5 text-center">Menu</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="item-font">Latte</h2>
+                    <p class="menu-font">Milk Coffee - Espresso topped with steamed milk and a thin layer of delicious
+                        velvety foam on top.</p>
+                    <p class="menu-font">Small(8oz) - €3.00 Medium - €3.60 Large - €4.25</p>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="item-font">Americano</h2>
+                    <p class="menu-font">Black Coffee - Espresso topped with hot filtered water.</p>
+                    <p class="menu-font">Small(8oz) - €2.60 Medium(12oz) - €3.20 Large(16oz) - €3.85</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="item-font">Cappucino</h2>
+                    <p class="menu-font">Milk Coffee - Espresso topped with steamed milk and a thick layer of delicious
+                        velvety foam on top.</p>
+                    <p class="menu-font">Small(8oz) - €3.00 Medium(12oz) - €3.60 Large(16oz) - €4.25</p>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="item-font">Drip Coffee</h2>
+                    <p class="menu-font">Brewed Coffee - Using our unique coffee beans that are roasted in store.</p>
+                    <p class="menu-font">Small(8oz) - €2.40 Medium(12oz) - €2.80 Large(16oz) - €3.25</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="item-font">Flat White</h2>
+                    <p class="menu-font">White Coffee - Espresso topped with steam milk and a rich velvety foam on top
+                    </p>
+                    <p class="menu-font">Small - €2.70</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="menu-font">Lactose intolerant? Don't worry! You can replace with the following non-diary
+                        milk: Oat, Coconut, Almond, Soy!</p>
+                    <p class="menu-font">All our beverages are made using freshly roasted coffee beans roasted this
+                        morning.</p>
+                    <p class="menu-font">The origin of the coffee beans this month is from Piccollo which contains
+                        notes of toasted almond and dried cherry.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h1 class="display-4 item-font">Order Form</h1>
+            <form id="order-form">
+                <div class="form-group row">
+                    <label for="name" class="col-sm-2 col-form-label menu-font">Name:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="beverage" class="col-sm-2 col-form-label menu-font">Beverage:</label>
+                    <div class="col-sm-10">
+                        <select id="beverage" name="beverage" class="form-control">
+                            <option value="flat-white">Flat White</option>
+                            <option value="latte">Latte</option>
+                            <option value="cappuccino">Cappuccino</option>
+                            <option value="americano">Americano</option>
+                            <option value="drip-coffee">Drip Coffee</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="size" class="col-sm-2 col-form-label menu-font">Size:</label>
+                    <div class="col-sm-10">
+                        <select id="size" name="size" class="form-control">
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="quantity" class="col-sm-2 col-form-label menu-font">Quantity:</label>
+                    <div class="col-sm-10">
+                        <input type="number" id="quantity" name="quantity" min="1" max="10" class="form-control"
+                            required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="milk" class="col-sm-2 col-form-label menu-font">Milk:</label>
+                    <div class="col-sm-10">
+                        <select id="milk" name="milk" class="form-control">
+                            <option value="low-fat">Low Fat</option>
+                            <option value="full-fat">Full Fat</option>
+                            <option value="slim">Slim</option>
+                            <option value="oat">Oat</option>
+                            <option value="almond">Almond</option>
+                            <option value="coconut">Coconut</option>
+                        </select>
+                    </div>
+                </div>
+
+        </div>
+
+        <div class="form-group row">
+            <div class="col-sm-10 offset-sm-2">
+                <input type="submit" id="submit-btn" value="Submit" class="btn btn-primary">
+                <input type="reset" value="Reset" class="btn btn-secondary">
+            </div>
+        </div>
+        </form>
+        </div>
+    </main>
+    <footer class="navbar navbar-expand mt-5 p-3">
+        <div class="container justify-content-center">
+            <a href="#" class="navbar-brand">
+                <img src="/Users/Owner/Desktop/Web design project/images/logo.svg" alt="logo" />
+            </a>
+        </div>
+    </footer>
+    <script src='js/external.js'></script>
+</body>
+
+</html>
