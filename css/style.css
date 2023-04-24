@@ -62,7 +62,7 @@
 /* Style for the header and navigation bar */
 
 header {
-    background-image: url('/Users/Owner/Desktop/Web design project/images/image-hero-coffeepress.jpg');
+    background-image: url('images/image-hero-coffeepress.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -197,7 +197,7 @@ nav {
 
 /* Sets the background image for an element */
 .background-image {
-    background-image: url('/Users/Owner/Desktop/Web design project/images/pexels-viktoria-alipatova-2668498.jpg');
+    background-image: url('images/pexels-viktoria-alipatova-2668498.jpg');
     background-size: 90% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -205,13 +205,13 @@ nav {
 
 /* Sets the background image for the contact section */
 .contact-background {
-    background-image: url('/Users/Owner/Desktop/Web design project/images/pexels-ömer-aydin-10999349.jpg');
+    background-image: url('images/pexels-ömer-aydin-10999349.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 .about-header {
-    background-image: url('/Users/Owner/Desktop/Web design project/images/image-hero-whitecup.jpg');
+    background-image: url('images/image-hero-whitecup.jpg');
     background-size: cover;
     background-position: center;
 }
