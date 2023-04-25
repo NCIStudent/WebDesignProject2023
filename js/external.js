@@ -37,7 +37,7 @@ document.getElementById("order-form").addEventListener("submit", function(event)
             costPerUnit = 3.5;
         }
         break;
-        case "cappucino":
+        case "cappuccino":
         switch (size) {
           case "small":
             costPerUnit = 3.0;
